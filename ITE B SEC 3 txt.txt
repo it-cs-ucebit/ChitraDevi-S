@@ -1,0 +1,23 @@
+<?php
+$Name=$_POST['t1'];
+$Id=$_POST['t2'];
+$DOB=$_POST['t3'];
+$Gender=$_POST['t4'];
+$Mobile=$_POST['t5'];
+$Address=$_POST['t6'];
+$Occupation=$_POST['t7'];
+$Religion=$_POST['t8'];
+$Language=$_POST['t9'];
+$Maritalstatus=$_POST['t10'];
+$Relationship=$_POST['t11'];
+//$regno = isset($_POST['regno']) ? $_POST['regno'] : '';
+$conn = mysqli_connect('localhost', 'root','') or die("cannot connect");
+mysqli_select_db($conn,'personal') or die("cannot select DB");
+$res = mysqli_query($conn,"insert into sample1
+values('$Name','$Id','$DOB','$Mobile','$Gender','$Address','$Occupation','Religion','$Language','$Maritalstatus','$R
+elationship')") or die(mysqli_error());
+if($res>0)
+{
+echo "Record created";
+echo "$Id";
+} ?>

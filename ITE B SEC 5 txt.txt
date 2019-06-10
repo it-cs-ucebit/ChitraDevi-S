@@ -1,0 +1,23 @@
+<html><head>
+<title>Top Frame</title>
+</head>
+<body>
+<img src="images\logo.jpeg" width="85" height="75" align="left"> <center>
+<marquee bgcolor="yellow" width="650" behavior="alternate">
+<font face="Brush Script MT" size="6" color="Blue"><b><i>Online Book Store</i></b>
+</font></marquee>
+<br><font face="Brush Script MT" size="4" color="red"><b>Created & Maintained By G. E.
+C</b></font>
+</center><br>
+<table width="100%" height="50%" cellspacing=10> <tr align="center">
+<td> <a href="Home.html" target="_parent"> <img src="images\home.png" height="38">
+</a></td>
+<td> <a href="login.html" target="rightframe"> <img src="images\login.gif" height="38"> </a></td>
+<td> <a href="registration.html" target="rightframe"> <img src="images\register.jpg" height="38">
+</a></td>
+<td> <a href="catalogue.jsp" target="rightframe"> <img src="images\catalogue.jpg" height="38">
+</a></td>
+<td> <a href="cart.html" target="rightframe"> <img src="images\cart.jpg" height="40">
+</a></td></tr></table>
+</body>
+</html>

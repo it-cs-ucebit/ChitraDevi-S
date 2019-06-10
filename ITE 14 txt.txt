@@ -1,0 +1,12 @@
+<html>
+<body align="center"><br>
+<a href="" target="rightframe"> <img src="E:\WebTechnologiesLab\images\cse.jpg" height="35">
+</a><br><br>
+<a href="" target="rightframe"> <img src="E:\WebTechnologiesLab\images\ece.jpg" height="35">
+</a><br><br>
+<a href="" target="rightframe"> <img src="E:\WebTechnologiesLab\images\eee.jpg" height="25">
+</a><br><br>
+<a href="" target="rightframe"> <img src="E:\WebTechnologiesLab\images\civil.jpg"
+height="35"> </a><br>
+</body>
+</html>

@@ -1,0 +1,9 @@
+<html>
+<body>
+<img src="E:\WebTechnologiesLab\images\Books1.jpg" height="170"><br> <center>
+<font face="Brush Script MT" size="5" color="blue"><b>Welcome to the Online Book
+Store!!!</b></font><br><br>
+<font face="Brush Script MT" size="5" color="red"><b>"A Huge Collection Of Engineering EBooks"</b></font>
+</center>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Login</title>
+</head>
+<body>
+<form method="POST" action="login.php">
+<center>
+<h1>LOGIN</h1>
+User name :<input type=text length=10 name=uname> <br>
+Password :<input type=password length=10 name=pwd> <br>
+<input type=submit name=submit value=submit>
+<input type=reset name=reset value=reset>
+</center>
+</form>
+</body>
+</html>

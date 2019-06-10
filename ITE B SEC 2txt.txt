@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>
+<h1 style="color:blue">personal information system</h1>
+</title>
+<style>
+body{background-color:powderblue;}
+</style>
+</head>
+<body>
+<form method="post" action="pis.php">
+Name:<input type="text" name="t1"><br/>
+Id :<input type="text" name="t2"><br/>
+DOB :<input type="text" name="t3"><br/>
+Gender:<input type="text" name="t4"><br/>
+Mobile:<input type="text" name="t5"><br/>
+Address:<input type="text" name="t6"><br/>
+Occupation:<input type="text" name="t7"><br/>
+Religion:<input type="text" name="t8"><br/>
+Language:<input type="text" name="t9"><br/>
+Maritalstatus:<input type="text" name="t10"><br/>
+Relationship:<input type="text" name="t11"><br/>
+<input type="submit" value="enter">
+</form>
+</body>
+</html>

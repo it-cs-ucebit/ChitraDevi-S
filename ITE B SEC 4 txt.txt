@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC"-//W\w3c//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/1999/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>selectors.html</title>
+<link rel="stylesheet"type="text/css" href="Z:\sample.css"/>
+</head>
+<body>
+<h1>selectors list</h1>
+<p id="p1" class="takenote">
+paragraph with id="p1" nad class=”takenote".</p>
+<p id="p2"class=”special">
+second paragraph<span class="takenote special cool"> this span belongs to classes takenote,special and
+coll</span>
+<ul>
+<li>span's within list are in <span> small-cap </span> style </li> <ol>
+<li> this item spaces letters</li>
+</ol>
+</ul>
+</p>
+<p id="p3">
+third para(id="p3")contains a
+<a href="http://www.example.net">hyperlink</a>
+<ol>
+<li> this item contains a span but does not display it in
+<span> small caps </span> nor does it spaces letters</li>
+</ol>
+</p>
+</body>
+</html>
