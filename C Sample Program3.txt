@@ -1,0 +1,186 @@
+                                      STRUCTURE AND UNION
+
+void main()
+{
+struct book 1
+{
+char book[30]
+int pages;
+float price;
+}
+struct book (bk);
+clrscr();
+printf("\n size of structure elements");
+printf("\n Book:%d",size of (bk1.book);
+printf("\n pages:%d,size of(bk1.pages));
+printf("\n price:%d",size of (bk1.price));
+printf("\n Total bytes:%d",size of(bk1));
+getch();
+}
+
+                              STRUCTURE WITHIN STRUCTURE
+                            
+                    PROGRAM TO READ&DISPLAY CAR NUMBER, STARTING TIME AND READING TIME
+
+void main()
+{
+struct time
+{
+int second;
+int minute;
+int hour;
+};
+struct
+int car no;
+struct time st;
+struct time st;
+};
+struct ++r1;
+clrscr();
+printf("\n car no.starting time, reaching time");
+scanf("%d",&r1.st.hour,&r1.st.minute,&r1.st.second);
+scanf("%d%d%d",&r1.st.hour,&r1.st.minute,&r1.st.second);
+printf("\n\t car no.\tstarting time\t reaching time\n");
+printf("\t%d\t',r1.car no);
+printf("\t%d:%d:%d\t",r1.st.hour,r1.st.minute,r1.st.minute,r1.st.second);
+printf("t%d:%d:%d:r1.st.hour,r1,st.minute,r1.st.second);
+getch();
+}
+
+                                                               UNION
+
+void main()
+{
+union result
+{int marks;
+char grade;
+};
+struct res;
+{
+char name[15];
+int age;
+union result perf;
+}
+data;clrscr();
+printf("size of union:%d\n",size of(data.perf));
+printf("size of structure:%d\n",size of(data);
+getche();
+}
+
+                                            POINTERS AND ARRAYS
+
+void main()
+{
+int X[]={2,4,6,8,10},k=1;
+clrscr();
+while(k<=5)
+{
+printf("%3d",X[k-1]);
+k++;
+}
+}
+
+                                                 POINTER TO POINTER
+
+void main()
+{
+inta=2,*p,**q;
+p=&a;
+q=&p;
+clrscr();
+printf("\n value of a=%d Address of a=%u",a&a);
+printf("\n throgh*p value of a=%d.Address of a=%u",*p,p);
+printf("\n through**q value of a=%d.Address of a=%ddd",**q,*q);
+}
+
+                                            PROGRAM to SHOW THE EFFECT OF INCREAMENT OPERATOR AS A SUFFIX
+
+void main()
+{
+int a,z,X=10,Y=20;
+clrscr();
+z=X*Y++;
+a=X*Y;
+printf("\n%d%d",z,a);
+}
+
+                                      PROGRAM TO USE '&' AND SIZE OF() OPERATOR AND DETERMINE THE SIZE OF INTEGER AND FLOAT VARIABLES
+
+void main()
+{
+int X=2;
+float Y=2;
+clrscr();
+printf("\n size of (X)=%d bytes",size of(X));
+printf("\n size of(Y)=%d bytes",size of(Y));
+printf("\n Address of X=%u and y=%u",&&,&Y);
+}
+
+                                       PROGRAM TO PRINT AN INTEGER
+#include<stdio.h>
+int main()
+{
+int number;
+printf("Enter an integer:");
+scanf("%d",&number);
+printf("you entered:%d", number);
+return 0;
+}
+
+                                   PROGRAM TO SUBTRACT TWO INTEGERS
+
+#include<stdio.h>
+int main()
+{
+int firstnumber,secondnumber,subtractionoftwonumbers;
+printf("enter two integers");
+scanf("%d%d",&firstnumber,&secondnumber);
+subtractionoftwonumber=secondnumber-firstnumber;
+printf("%d=%d=%d',firstnumber,secondnumbersubtractionoftwonumbers);
+return 0;
+}
+
+       FIND the TWO NUMBERS ARE EQUAL OR NOT
+
+
+#include<stdio.h>
+int main()
+{
+intX=4,Y=5;
+if(X==y)
+printf("\n equal");
+else
+printf("\n not equal");
+return 0;
+
+                                              FIND THE GREATER AND SMALLER NUMBER
+
+#include<stdio.h>
+int main()
+{
+intX,Y;
+printf("\n Enter two nmbers:");
+scanf("%d",&X,&Y);
+if(X==Y)
+printf('\n The two numbers are equal");
+else if(X>Y)
+printf("\n%d is greater than %d",X,Y);
+else
+printf("\n %d is smaller than %d,x, y);
+return 0;
+}
+
+                                                     AREA OF RECTANGLE
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int base,height,area;
+printf("Enter the value of base and height");
+scanf("%d%d",&base,&height);
+area=0.5*base*height;
+printf("it is a value of area%d",area);
+return 0;
+}
+

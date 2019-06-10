@@ -1,0 +1,168 @@
+             DISPLAY NUMBERS FROM 1TO 15 USING FOR LOOP
+
+
+#include<stdio.h>
+int main()
+{
+int i;
+for(i=1;i<=15;i++)
+printf("%d",i);
+}
+
+              PROGRAM TO GENERATE THE PYRAMID STRUCTURE USING NUMERICALS
+
+
+#include<stdio.h>
+voidmain()
+{
+int k,i,j,x,p=34;
+printf("\n enter the n numbers:");
+scanf("%d",&x);
+for(i=0;j<=x;j++)
+{
+goto xy(p,j++);
+for(i=0-j;i<=j;i++)
+printf("%3d",abs(i));
+p=p-3;
+}
+}
+
+             PROGRAM TO CALCULATE THE FACTORIA OF A GIVEN NUMBER USING WHLE LOOP
+
+
+void main()
+{
+int a,fact=1;
+printf("\n enter the number:");
+scanf("%d",&a);
+while(a>=1)
+{
+printf("%d*",a);
+fact=fact*a;
+a__0;
+}
+printf("%d",fact);
+printf("\n factorial of given number is %d", fact);
+}
+
+
+            AUTOMATIC VARIABLES
+
+
+void call1();
+void call2();
+void main()
+{
+int v=10;
+call2();
+printf("\n v=%d",v);
+}
+void call1()
+{
+int v=20;
+printf("\n v=%d",v);
+}
+void call2()
+{
+int v=30;
+call1();
+printf("\n v=%d", v);
+}
+
+
+            ONE DIMENSIONAL ARRAY
+
+void main()
+{
+int sum0=0,sume=0;i=0,odd[5];even[5],a=-1,b=-1;
+for()i=1;i<=10;i++)
+{
+if(i%2==0)
+even[++a]=i;
+else
+odd[++b]=i;
+}
+printf("\n\t even \t\to....");
+for(i=0;i<5;i++)
+{
+printf("\n\t%d\t\t%d",even[i],odd[i]);
+sume=sume+even[i];
+sumo=sumo+odd[i];
+}
+printf("\n \t==========\n");
+printf("addition=%d%14d",sume,sumo);
+}
+
+
+          PROGRAM TO ENTER INTEGER ELEMENT AND SORT THEM IN AN ASCENDING ORDER 
+
+
+void main()
+{
+int main[5];i,k,s=0;
+printf("\n enter five elements:");
+for (j=0;j<5;j++)
+{
+scanf("%d",&sum[i]);
+s=s+num[i];
+}
+for(k=0;k<a;k++)
+{
+for(j=0;j<5;j++)
+{
+if(num[j]==k)
+printf("%d",num[i]);
+}
+}
+}
+
+
+         PROGRAM TO DISPLAY THE STRING PRABHAKAR USING VARIOUS FORMAT SPECIFICATION 
+
+void main()
+{
+char text[15]="PRABHAKAR";
+printf("%s\n",text);
+printf("%5s\n",text);
+printf("%8s\n",text);
+printf("%15s\n",text);
+printf("%\\s",text);
+}
+
+
+         PROGRAM TO COMPARE THE TWO STRING USING STRI CMP()FUNCTION .THE TWO STRINGS ARE IDENTICAL
+
+void main()
+{
+char sr[10];tar[10];
+int diff;
+printf("enter string(1):");
+gets(sr);
+printf("enter string(2):");
+gets(tar);
+diff=stri cmp(str,tar);
+if (diff==0)
+puts("the two strings are identical:");
+else
+put("the two string are different:");
+getch();
+}
+
+
+         PROGRAM TO COPY OF THE SOURCE SRING TO THE DESTINATION STRING
+
+#include<string.h>
+void main()
+{
+char str1[15],str2[15];
+int n;
+printf("enter the source string:");
+gets(str1);
+printf("enter thedestination string:");
+gets(str2);
+printf("enter the number of character to replace in destination string:");
+scanf("%d",&n);
+stri cmp(str2,str1,n);
+printf("source string:%s",s to 1);
+printf("\n destination string:%s",str2);
+}
